@@ -8,7 +8,7 @@ public class Random2 {
 		System.out.println(mazePaths(2,4,new ArrayList<>(),1));
 	}
 
-	public static ArrayList<ArrayList<Integer>> mazePaths(int K, int N, int cp) {
+	public static ArrayList<ArrayList<Integer>> mazePaths(int K, int N,ArrayList<Integer> temp, int cp) {
 		if (cp >= N) {
 			if (cp == N) {
 				ArrayList<ArrayList<Integer>> baseresult = new ArrayList<>();

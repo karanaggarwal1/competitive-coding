@@ -1,4 +1,4 @@
-package hackathons;
+package Miscellaneous;
 
 import java.util.ArrayList;
 import java.util.Scanner;

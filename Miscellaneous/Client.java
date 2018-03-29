@@ -3,7 +3,7 @@ package Miscellaneous;
 public class Client {
 
 	public static void main(String[] args) {
-		TTT 
+		TTT ttt = new TTT();
 
 	}
 

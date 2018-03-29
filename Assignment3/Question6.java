@@ -28,7 +28,7 @@ public class Question6 {
 
 	}
 	public static void SumPairsbtr(int[] arr1,int x){
-		Lecture8.MazePaths.mergeSort(arr, left, right)
+//		Lecture8.MazePaths.mergeSort(arr, left, right)
 	}
 
 }

@@ -1,4 +1,4 @@
-
+package Miscellaneous;
 
 import java.util.Scanner;
 
