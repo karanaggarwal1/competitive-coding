@@ -79,7 +79,7 @@ public class Recursion {
 			System.out.print(osf + "\t");
 		} else {
 			for (int i = 0; i < n; i++) {
-				printPermutations(str.substring(0, i) + str.substring(i + 1, n), osf + str.charAt(i));
+				printPermutations(str.substring(0, i) + str.substring(i + 1, n), osf + str.charAt  (i));
 			}
 		}
 	}
