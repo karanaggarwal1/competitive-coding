@@ -1,6 +1,5 @@
 package Miscellaneous;
 
-import java.util.Scanner;
 
 public class xyz {
 
@@ -38,8 +37,22 @@ public class xyz {
 //		for (int i = 0; i < length.length; i++) {
 //			System.out.println(length[i]);
 //		}
-		factors(197593);
+//		factors(197593);
 //		scn.close();
+		Graph<Character> g = new Graph<>();
+		g.addEdge('a', 'g');
+		g.addEdge('a', 'f');
+		g.addEdge('a', 'e');
+//		g.addEdge('e', 'f');
+		g.addEdge('a', 'c');
+		g.addEdge('e', 'd');
+		g.addEdge('e', 'b');
+		g.addEdge('b', 'f');
+		g.addEdge('b', 'c');
+		g.addEdge('c', 'd');
+		g.addEdge('d', 'f');
+		g.addEdge('d', 'g');
+		System.out.println(g.isBipartite());
 	}
 
 	// O(n^2)-time and O(1) space
